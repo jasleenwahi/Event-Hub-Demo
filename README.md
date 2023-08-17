@@ -23,12 +23,19 @@ This application demontrates how we can use mockaroo to generate random data whe
 5. run the application
 
 **Kafka Configuration**
+
 kafka.bootstrap-servers= ${KAFKA_SERVER}
+
 kafka.properties.security.protocol = <KAFKA_SECURITY_PROTOCOL>
+
 kafka.properties.sasl.mechanism = <SASL_MECHANISM>
+
 kafka.properties.sasl.jaas.config = <JASS_CONFIG>
+
 kafka.producer.key-serializer = <KEY_SERIALIZER>
+
 kafka.producer.value-serializer = <VALUE_SERIALIZER>
+
 
 **Rest Endpoints**
 1. Push data to cloud Pub-sub
