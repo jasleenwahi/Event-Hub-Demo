@@ -1,4 +1,5 @@
 **random data generation using mockaroo and sending the data to event hub**
+
 This application demontrates how we can use mockaroo to generate random data whenever required and send the generated data to azure event hub using spring boot kafka template.
 
 **Table of Contents**
