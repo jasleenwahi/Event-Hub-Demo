@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
 
 @Service
 @Slf4j
-public class CosmosDbService implements CloudDataService {
+public class KafkaService implements CloudDataService {
 
     /**
      * The KafkaTemplate for sending vehicle data to Kafka topics.
